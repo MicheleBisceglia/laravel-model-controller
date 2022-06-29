@@ -16,6 +16,8 @@ Route::get('/', function () {
   return view('home') ;
 })->name('home');
 
+Route::get('/movies', 'HomepageController@index')->name('movies');
+
 Route::get('/chisiamo', function () {
   return view('chisiamo') ;
 })->name('chisiamo');
@@ -23,5 +25,3 @@ Route::get('/chisiamo', function () {
 Route::get('/assistenza', function () {
   return view('assistenza') ;
 })->name('assistenza');
-
-Route::get('/movies', 'HomepageController@index')->name('movies');

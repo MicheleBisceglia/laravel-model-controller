@@ -5,6 +5,6 @@
 
   <a href="{{ route('chisiamo') }}">Chi siamo</a>
 
-  <a href="{{ route('movies') }}">Assistenza</a>
+  <a href="{{ route('assistenza') }}">Assistenza</a>
 
 </header>
