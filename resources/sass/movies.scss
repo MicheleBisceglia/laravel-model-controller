@@ -1,0 +1,29 @@
+.movies {
+  overflow: auto;
+  height: calc(100vh - 170px);
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    ul {
+      font-size: 80%;
+      width: calc(100% / 5);
+      margin: 40px;
+      background-color: #0f79af;
+      padding-top: 10px;
+      li {
+        list-style: none;
+        padding-bottom: 20px;
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+
+
