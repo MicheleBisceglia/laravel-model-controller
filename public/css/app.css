@@ -72,7 +72,7 @@ li {
   list-style: none;
 }
 
-.home {
+.home-section {
   width: 50%;
   height: 100%;
   margin: 0 auto;
@@ -81,12 +81,12 @@ li {
   background-position: center;
 }
 
-.home h1 {
+.home-section h1 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.home .home-btn {
+.home-section .home-btn {
   background-color: #0f79af;
   color: black;
   text-align: center;
