@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('main-content')
-<section class="movies">
+<section class="movies my_scroll">
   <h1>Lista film disponibili</h1>
     <div class="container">
     @foreach ($movies as $item)
